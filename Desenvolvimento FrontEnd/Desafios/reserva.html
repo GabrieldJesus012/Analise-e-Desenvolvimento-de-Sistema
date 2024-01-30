@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 02</title>
+</head>
+<body>
+    <h1>Faça sua Reserva</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Qual o seu nome?</label>
+                <input type="text" name="nome" id="inome" required placeholder="Seu nome">
+            </p>
+            <p>
+                <label for="iemail">E-mail para contato:</label>
+                <input type="email" name="email" id="iemail" required placeholder="Seu email">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Serviços Desejados</legend>
+                <p>
+                    <input type="checkbox" name="passagem" id="ipassagem"> <label for="ipassagem">Compra de Passagem</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="hospedagem" id="ihospedagem"><label for="ihospedagem">Reserva de Hospedagem </label>
+                </p>
+                <p>
+                    <input type="checkbox" name="aluguel" id="ialuguel"><label for="ialuguel">Aluguel de Veículos</label>
+                </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+            <p>
+                <input type="radio" name="pagamento" id="ipix"> <label for="ipix">Pix</label>
+                <input type="radio" name="pagamento" id="icartao"> <label for="icartao">Cartão de Credito</label>
+                <input type="radio" name="pagamento" id="iboleto"> <label for="iboleto">Boleto</label>
+            </p>
+            <p>
+                <label for="iprazo">Prazo de Pagamento</label>
+                <select name="Prazo" id="iprazo">
+                    <option value="" selected>-->Escolha<--</option>
+                    <option>À Vista</option>
+                    <option>5x Sem Juros</option>
+                    <option>10x Com Juros</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Tire suas duvidas</legend>
+            <textarea name="msg" id="imsg" cols="50" rows="15"></textarea>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>

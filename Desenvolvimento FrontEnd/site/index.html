@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem dos sonho</title>
-    <style>
-        thead{
-            border-style:groove;
-        }
-        tbody{
-            border-style:groove;
-        }
-        </style>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
     <header>
@@ -88,6 +81,33 @@
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section>
+            <h2>Orçamento</h2>
+            <form action="" method="post">
+                <label for="iname">Nome:</label>
+                <input type="text" name="name" id="iname"> <br> <br>
+
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail"> <br> <br>
+
+                <label for="idata">Data de ida:</label>
+                <input type="date" name="data" id="idata"> <br> <br>
+
+                <label for="idatav">Data de volta:</label>
+                <input type="date" name="datav" id="idatav"> <br> <br>
+
+                <label for="ipessoas">Quantidade de Pessoas:</label>
+                <input type="number" name="pessoas" id="ipessoas"> <br><br> Compra de Passagens
+                
+
+                <label for="IServiços">Quais serviços deseja contratar?</label> <br>
+                <input type="checkbox" name="serviços" id="IServiços" value="Passagens">
+
+                <label for="imsg">Comentário</label> <br>
+                <textarea name="msg" id="imsg" cols="30" rows="5"></textarea> <br><br>
+                <button>Salvar</button>
+            </form>
         </section>
     </main>
     <footer>
