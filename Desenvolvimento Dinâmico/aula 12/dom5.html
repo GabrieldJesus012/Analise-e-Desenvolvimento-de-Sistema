@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Usando getElementByTagName </h1>
+    <h1 id="id"> usando getElementByID</h1>
+    <div name="conteudo" class="msg">
+        <h1>usando getElementsByName</h1>
+    </div>
+    <div class="msg">
+        <h1>usando getElementsByClassName</h1>
+    </div>
+    <div id="msg">
+        <h1>usando querySelector</h1>
+    </div>
+</body>
+<script>
+    elemento0 = document.getElementsByTagName('h1')[0]//ele vai trazer todo h1
+    elemento0.style.color='blue'
+    elemento1 = document.getElementById("id")
+    elemento1.style.color="red"
+    elemento2 = document.getElementsByName("conteudo")[0]
+    elemento2.style.color="blue"
+    elemento3 = document.getElementsByClassName("msg")[1]
+    elemento3.style.color="green"
+    elemento4= document.querySelector('div#msg')
+    elemento4.style.color="yellow"
+</script>
+</html>
