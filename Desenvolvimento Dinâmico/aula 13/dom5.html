@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="iemail">Email
+            <input type="email" id="iemail">
+        </label> <br>
+        <label for="inome"> Nome
+            <input type="text" id="inome">
+        </label>
+        <input type="submit" onclick="novoitem()" value="enviar">
+    </form>
+</body>
+<script>
+    function novoitem(){
+        var camponome=document.querySelector("#inome");
+        alert("Seu nome é: " + camponome.value)
+    }
+</script>
+
+</html>

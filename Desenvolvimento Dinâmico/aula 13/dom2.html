@@ -7,5 +7,19 @@
 </head>
 <body>
     
+    <ul id="lista">
+
+    </ul>
 </body>
+<script>
+    var elemento = document.createElement("div");
+    elemento.innerText= "incluindo texto na div";
+    elemento.style.backgroundColor ="lightgreen";
+    document.body.append(elemento);
+
+    var lista= document.querySelector("#lista");
+    var li= document.createElement("li");
+    li.textContent="Quem somos"; //texto dentro do li
+    lista.appendChild(li)
+</script>
 </html>

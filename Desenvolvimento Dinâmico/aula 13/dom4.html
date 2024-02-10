@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="button" onclick="exemploEvento()" value="clique">
+    </form>
+
+    <h1 id="exemplo" onmouseover="passarmouse()" onmouseout="tirarmouse()" >Passe o mouse aqui</h1>
+
+</body>
+<script>
+    function exemploEvento(){
+        alert("mostrando alert")
+    }
+
+    function passarmouse(){
+        document.querySelector("#exemplo").innerHTML="Evento com mouse em cima"
+    }
+    function tirarmouse(){
+        document.querySelector("#exemplo").innerHTML="Evento com mouse fora"
+    }
+</script>
+</html>
