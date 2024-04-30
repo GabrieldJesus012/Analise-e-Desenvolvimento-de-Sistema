@@ -1,0 +1,19 @@
+//salvar como MeuPrimeiroExercicioJava.java
+
+//nome da classe
+class MeuPrimeiroExercicioJava
+{
+   //módulo principal com a entrada pela linha de comando
+ public static void main (string entrada[])
+ {
+   //declaração de variáveis
+     int idade = 22;
+     char gênero = 'M';
+     double peso = 53.0;
+     String nome = "Gabriel de Jesus ";
+     String curso = "ADS ";
+    
+     System.out.println( "Eu sou o " + nome + "tenho " + idade + " anos e tenho " +  peso "kg de peso e curso " + curso);
+   System.exit(0);
+ }
+}
