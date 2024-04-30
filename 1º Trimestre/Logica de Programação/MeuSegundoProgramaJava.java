@@ -3,10 +3,10 @@
 //nome da classe
 class MeuSegundoProgramaJava
 {
-   //módulo principal com a entrada pela linha de comando
- public static void main (string entrada[])
+   //modulo principal com a entrada pela linha de comando
+ public static void main (String entrada[])
  {
-   //declaração de variáveis
+   //declaracao de variaveis
      int n1, n2, soma;
     
    // entrada de dados
